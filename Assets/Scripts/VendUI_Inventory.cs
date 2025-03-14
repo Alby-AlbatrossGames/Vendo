@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VendUI_Inventory : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class VendUI_Inventory : MonoBehaviour
             RectTransform drinkSlotRectTransform = Instantiate(drinkSlotTemplate, drinkSlotContainer).GetComponent<RectTransform>();
             drinkSlotRectTransform.gameObject.SetActive(true);
             drinkSlotRectTransform.anchoredPosition = new Vector2(x * drinkSlotCellSize, y * drinkSlotCellSize);
+            Image icon = drinkSlotRectTransform.Find("icon").GetComponent<Image>();
+            icon.sprite = drink.GetSprite();
             x++;
 
             if (x > 4)

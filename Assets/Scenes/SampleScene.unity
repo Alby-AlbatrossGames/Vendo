@@ -413,6 +413,56 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &501458569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501458571}
+  - component: {fileID: 501458570}
+  m_Layer: 0
+  m_Name: drinkAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &501458570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501458569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d11b5aebedc9c4fa9eb0f3c48ac290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drink1Sprite: {fileID: 21300000, guid: 3b231b57e956dd1458d6ea2de18266b3, type: 3}
+  drink2Sprite: {fileID: 21300000, guid: bdf8dd465b428d44fba9dcc17cc09a01, type: 3}
+  drink3Sprite: {fileID: 21300000, guid: fa5788c551a60d34db4d33dc49e79c73, type: 3}
+  drink4Sprite: {fileID: 21300000, guid: 3b231b57e956dd1458d6ea2de18266b3, type: 3}
+  drink5Sprite: {fileID: 21300000, guid: bdf8dd465b428d44fba9dcc17cc09a01, type: 3}
+  drink6Sprite: {fileID: 21300000, guid: fa5788c551a60d34db4d33dc49e79c73, type: 3}
+--- !u!4 &501458571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501458569}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.27477, y: 735.78845, z: 2.202724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &543071673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,3 +1060,4 @@ SceneRoots:
   - {fileID: 543071677}
   - {fileID: 1824014979}
   - {fileID: 1285573421}
+  - {fileID: 501458571}
